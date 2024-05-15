@@ -1,0 +1,128 @@
+/* #fbffa7 
+    #ff764d
+    #b1c5ff
+    #d5b3ff
+    #b6ffc0
+    #0000ff
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(180, 178, 178, 0.432);
+}
+
+header .left-header, .right-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    gap: 22px;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.orange{
+    color: #ff764d;
+}
+
+a.blue{
+    color: #0000ff;
+}
+
+/* Styling Hero section */
+
+section .image {
+    background-image: url("images/pexels-amar-19598320.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 460px;
+    margin: auto;
+}
+
+.image p{
+    font-size: 90px;
+}
+
+/* styling about us section... */
+.aboutUs {
+    padding: 40px;
+}
+
+.aboutUs-text {
+    width: 60%;
+    margin: auto;
+    line-height: 40px;
+}
+
+/* styling products section... */
+.products {
+    position: relative;
+    height: 65vw;
+}
+
+.collage-background {
+    background-color: #fbffa7;
+    width: 56.33vw;
+    height: 56.33vw;
+    position: absolute;
+    top: 0;
+    left: 41.66667vw;
+    z-index: -1;
+}
+
+.collage-one {
+    background-image: url(images/pexels-infonautica-15053187.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 40.55vw;
+    height: 40.55vw;
+    margin-left: 8vw;
+    z-index: 1;
+    position: relative;
+    top: 8vw;
+}
+
+.collage-two {
+    width: 33.44vw;
+    height: 26vw;
+    background-image: url(images/pexels-jlimproject-7255396.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    margin-left: 8vw;
+    right: 8vw;
+    top: 15vw;
+}
+
+.video {
+    padding: 5vw;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
