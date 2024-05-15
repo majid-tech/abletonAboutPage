@@ -220,3 +220,31 @@ iframe {
     z-index: 2;
 }
 
+.jobs {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.jobsImg1 {
+    width: 41.66667vw;
+    height: 34.66667vw;
+    background-image: url(images/pexels-ruveyda-140435227-21294096.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jobsImg2 {
+    width: 41.66667vw;
+    height: 34.66667vw;
+    background-color: #B1C5FF;
+    padding: 8vw;
+}
+
+a.latest {
+    display: block;
+    margin-top: 4.33vw;
+    font-size: larger;
+}
