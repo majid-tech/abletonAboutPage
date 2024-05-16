@@ -243,8 +243,17 @@ iframe {
     padding: 8vw;
 }
 
+.jobsImg2 .mainText {
+    line-height: 40px;
+}
+
 a.latest {
     display: block;
-    margin-top: 4.33vw;
+    margin-top: 2vw;
     font-size: larger;
 }
+
+footer {
+    border-top: 2px solid rgba(180, 178, 178, 0.432);
+}
+
