@@ -257,3 +257,12 @@ footer {
     border-top: 2px solid rgba(180, 178, 178, 0.432);
 }
 
+footer .icon {
+    margin: 40px;
+}
+
+.upperFoot {
+    width: 80%;
+    margin: auto;
+}
+
