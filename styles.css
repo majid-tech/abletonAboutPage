@@ -18,7 +18,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 2px solid rgba(180, 178, 178, 0.432);
 }
 
 header .left-header, .right-header {
@@ -39,8 +38,16 @@ a {
     color: black;
 }
 
+a:hover{
+    color: #ff764d;
+}
+
 .orange{
     color: #ff764d;
+}
+
+a.Two {
+    display: none;
 }
 
 a.blue{
@@ -308,4 +315,24 @@ form button {
 footer .centerFoot {
     width: 80%;
     margin: auto;
+}
+
+.popUp {
+    width: 100%;
+    padding: 30px;
+    display: none; 
+}
+
+.topLinks,h3 {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.bottomContainer {
+    display: flex;
+}
+
+.bottomContainer div p{
+    line-height: 25px;
 }
